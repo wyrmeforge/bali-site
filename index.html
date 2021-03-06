@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,46 +8,250 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Bali</title>
+    <title>Document</title>
 </head>
 <body>
 
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <div class="nav-logo">
-                    <span class="logo-text">Cool Trip</span>
+<header class="header">
+    <div class="container">
+       <nav class="nav">
+           <div class="header-logo">
+               <a href="#" class="logo">Cool Trip</a>
+           </div>
+           <ul class="nav-list">
+               <li class="nav-item">
+                   <a href="#" class="nav-list nav-list_item">Маршрут</a>
+               </li>
+
+               <li class="nav-item">
+                   <a href="#" class="nav-list nav-list_item">Стоимость</a>
+               </li>
+
+               <li class="nav-item">
+                   <a href="#" class="nav-list nav-list_item">Фото и Видео</a>
+               </li>
+
+               <li class="nav-item">
+                   <a href="#" class="nav-list nav-list_item">Контакты</a>
+               </li>
+           </ul>
+       </nav>
+
+        <div class="header-content">
+            <div class="header-content_title">
+                Познай чудеса Бали
+                вместе с Cool Trip
+            </div>
+
+            <div class="bottom-section">
+                <div class="header-button">
+                    <a href="#" class="header-btn">Хочу на Бали!</a>
                 </div>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-list nav-list_item">Маршрут</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-list nav-list_item">Стоимость</a>
-                    </li>
+                <div class="header-social">
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-vk' ></i></a>
+                </div>
+            </div>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-list nav-list_item">Фото и Видео</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-list nav-list_item">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="center-text">
-                <h1 class="main-text">
-                    Познай чудеса Бали
-                    вместе с Cool Trip
-                </h1>
+            <div class="header-bottom">
+                <a href="#"><img src="./images/mouse.svg" alt=""></a>
+                <a href="#"><img class="arrow" src="./images/Arrow.svg" alt=""></a>
             </div>
         </div>
-    </header>
+    </div>
+</header>
+
+    <section class="why" id="why">
+        <div class="container">
+            <div class="why-title">
+               Почему именно мы?
+            </div>
+            <div class="why-elements">
+                <div class="why-element">
+                    <div class="element-img">
+                        <img src="./images/first-el.svg" alt="" class="elem-img">
+                    </div>
+                    <div class="element-title">Индивидуальный подход</div>
+                    <div class="element-subtitle">Мы ориентируемся на ваши предпочтения</div>
+                </div>
+
+                <div class="why-element">
+                    <div class="element-img">
+                        <img src="./images/map.svg" alt="" class="elem-img">
+                    </div>
+                    <div class="element-title">Продуманный маршрут</div>
+                    <div class="element-subtitle">Наше путешествие продуманно до мелочей</div>
+                </div>
+
+                <div class="why-element">
+                    <div class="element-img">
+                        <img src="./images/gear%201.svg" alt="" class="elem-img">
+                    </div>
+                    <div class="element-title">Большой <br> опыт</div>
+                    <div class="element-subtitle">Уже 10 лет дарим вам сказочные эмоции</div>
+                </div>
+
+                <div class="why-element">
+                    <div class="element-img">
+                        <img src="./images/beach%201.svg" alt="" class="elem-img">
+                    </div>
+                    <div class="element-title">Незабываемый отдых</div>
+                    <div class="element-subtitle">Гарантируем что вы останетесь довольны</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="program">
+        <div class="container">
+            <div class="why-title">
+                Программа тура
+            </div>
+
+            <div class="program-slider fade">
+
+                <div class="slider-item">
+                    <div class="slider-content">
+                        <div class="slider-info">
+                            <div class="slider-day">День 1</div>
+                            <div class="slider-title">Наслаждайтесь водопадами</div>
+                            <div class="slider-description">Сегодня мы отправимся в Ловину,чтобы встретить диких дельфинов.После этого мы едем в колониальную столицу Бали - город Сингараджа.Здесь мы посетим старую пристань и поедем в глубь острова, чтобы посетить самый впечатляющий водопад острова - Секумпул. Вечер мы встретим у подножья вулкана Батур, на берегу одноименного острова.</div>
+                            <div class="slider slider_buttons">
+                                <button class="slider-btn"><span class="btn-prev">День 7</span></button>
+                                <button class="slider-btn"><span class="btn-next">День 2</span></button>
+                            </div>
+                            <div class="slider-link">Скачать полную программу тура</div>
+                        </div>
+                        <div class="slider-image">
+                            <img src="./images/slide.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-content">
+                        <div class="slider-info">
+                            <div class="slider-day">День 2</div>
+                            <div class="slider-title">Наслаждайтесь водопадами</div>
+                            <div class="slider-description">Сегодня мы отправимся в Ловину,чтобы встретить диких дельфинов.После этого мы едем в колониальную столицу Бали - город Сингараджа.Здесь мы посетим старую пристань и поедем в глубь острова, чтобы посетить самый впечатляющий водопад острова - Секумпул. Вечер мы встретим у подножья вулкана Батур, на берегу одноименного острова.</div>
+                            <div class="slider slider_buttons">
+                                <button class="slider-btn"><span class="btn-prev">День 1</span></button>
+                                <button class="slider-btn"><span class="btn-next">День 3</span></button>
+                            </div>
+                            <div class="slider-link">Скачать полную программу тура</div>
+                        </div>
+                        <div class="slider-image">
+                            <img src="./images/slide.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-content">
+                        <div class="slider-info">
+                            <div class="slider-day">День 3</div>
+                            <div class="slider-title">Наслаждайтесь водопадами</div>
+                            <div class="slider-description">Сегодня мы отправимся в Ловину,чтобы встретить диких дельфинов.После этого мы едем в колониальную столицу Бали - город Сингараджа.Здесь мы посетим старую пристань и поедем в глубь острова, чтобы посетить самый впечатляющий водопад острова - Секумпул. Вечер мы встретим у подножья вулкана Батур, на берегу одноименного острова.</div>
+                            <div class="slider slider_buttons">
+                                <button class="slider-btn"><span class="btn-prev">День 2</span></button>
+                                <button class="slider-btn"><span class="btn-next">День 4</span></button>
+                            </div>
+                            <div class="slider-link">Скачать полную программу тура</div>
+                        </div>
+                        <div class="slider-image">
+                            <img src="./images/slide.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-content">
+                        <div class="slider-info">
+                            <div class="slider-day">День 4</div>
+                            <div class="slider-title">Наслаждайтесь водопадами</div>
+                            <div class="slider-description">Сегодня мы отправимся в Ловину,чтобы встретить диких дельфинов.После этого мы едем в колониальную столицу Бали - город Сингараджа.Здесь мы посетим старую пристань и поедем в глубь острова, чтобы посетить самый впечатляющий водопад острова - Секумпул. Вечер мы встретим у подножья вулкана Батур, на берегу одноименного острова.</div>
+                            <div class="slider slider_buttons">
+                                <button class="slider-btn"><span class="btn-prev">День 3</span></button>
+                                <button class="slider-btn"><span class="btn-next">День 5</span></button>
+                            </div>
+                            <div class="slider-link">Скачать полную программу тура</div>
+                        </div>
+                        <div class="slider-image">
+                            <img src="./images/slide.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-content">
+                        <div class="slider-info">
+                            <div class="slider-day">День 5</div>
+                            <div class="slider-title">Наслаждайтесь водопадами</div>
+                            <div class="slider-description">Сегодня мы отправимся в Ловину,чтобы встретить диких дельфинов.После этого мы едем в колониальную столицу Бали - город Сингараджа.Здесь мы посетим старую пристань и поедем в глубь острова, чтобы посетить самый впечатляющий водопад острова - Секумпул. Вечер мы встретим у подножья вулкана Батур, на берегу одноименного острова.</div>
+                            <div class="slider slider_buttons">
+                                <button class="slider-btn"><span class="btn-prev">День 4</span></button>
+                                <button class="slider-btn"><span class="btn-next">День 6</span></button>
+                            </div>
+                            <div class="slider-link">Скачать полную программу тура</div>
+                        </div>
+                        <div class="slider-image">
+                            <img src="./images/slide.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-content">
+                        <div class="slider-info">
+                            <div class="slider-day">День 6</div>
+                            <div class="slider-title">Наслаждайтесь водопадами</div>
+                            <div class="slider-description">Сегодня мы отправимся в Ловину,чтобы встретить диких дельфинов.После этого мы едем в колониальную столицу Бали - город Сингараджа.Здесь мы посетим старую пристань и поедем в глубь острова, чтобы посетить самый впечатляющий водопад острова - Секумпул. Вечер мы встретим у подножья вулкана Батур, на берегу одноименного острова.</div>
+                            <div class="slider slider_buttons">
+                                <button class="slider-btn"><span class="btn-prev">День 5</span></button>
+                                <button class="slider-btn"><span class="btn-next">День 1</span></button>
+                            </div>
+                            <div class="slider-link">Скачать полную программу тура</div>
+                        </div>
+                        <div class="slider-image">
+                            <img src="./images/slide.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-content">
+                        <div class="slider-info">
+                            <div class="slider-day">День 7</div>
+                            <div class="slider-title">Наслаждайтесь водопадами</div>
+                            <div class="slider-description">Сегодня мы отправимся в Ловину,чтобы встретить диких дельфинов.После этого мы едем в колониальную столицу Бали - город Сингараджа.Здесь мы посетим старую пристань и поедем в глубь острова, чтобы посетить самый впечатляющий водопад острова - Секумпул. Вечер мы встретим у подножья вулкана Батур, на берегу одноименного острова.</div>
+                            <div class="slider_buttons">
+                                <button class="slider-btn"><span class="btn-prev">День 6</span></button>
+                                <button class="slider-btn"><span class="btn-next">День 1</span></button>
+                            </div>
+                            <div class="slider-link">Скачать полную программу тура</div>
+                        </div>
+                        <div class="slider-image">
+                            <img src="./images/slide.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--main.js-->
 
 
-<script src="./js/main.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
