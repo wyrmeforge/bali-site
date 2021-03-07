@@ -237,16 +237,6 @@ body {
     transform: scale(1.2);
 }
 
-.program {
-}
-.container {
-}
-.why-title {
-}
-.program-slider {
-}
-.slider-item {
-}
 .slider-content {
     display: flex;
     justify-content: space-between;
@@ -270,8 +260,6 @@ body {
     font-weight: 400;
     margin-top: 90px;
     margin-bottom: 60px;
-}
-.slider {
 }
 .slider_buttons {
     margin-left: 110px;
@@ -346,3 +334,222 @@ body {
 .slick-arrow {
     display: none;
 }
+
+.tour {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    background-image: url('../images/tour-bg.png');
+    backdrop-filter: blur(20px);
+    box-shadow: inset 0 -30px 20px -4px rgba(12,17,13,.5),
+    inset 0 -50px 20px -42px rgba(12,17,13,.4),
+    inset 0 -70px 20px -4px rgba(12,17,13,.3),
+    inset 0 -200px 20px -4px rgba(12,17,13,.2);
+}
+
+.tour-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1322px;
+    text-align: center;
+}
+
+.tour-title {
+    font-size: 96px;
+    font-family: 'Lora', sans-serif;
+    line-height: 122px;
+    font-weight: 400;
+}
+
+.tour-subtitle {
+    font-weight: 500;
+    font-size: 48px;
+    margin-top: 80px;
+}
+
+.tour-button_article {
+    margin-top: 100px;
+    max-width: 1322px;
+    width: 100%;
+    height: 275px;
+    background: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.tour_button-container {
+    color: #000;
+    margin: 0 auto;
+    padding-top: 86px;
+    display: flex;
+    width: 955px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.tour-days {
+    margin-top: 22px;
+    margin-right: 73px;
+    width: 155px;
+    text-align: left;
+}
+
+.tour-day {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tour-price {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.tour_button-container button {
+    width: 400px;
+    height: 100px;
+    background-color: #0C110D;
+    transition: all .5s;
+}
+
+.tour_button-container button:hover {
+    transform: scale(1.2);
+}
+
+.tour-btn {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.tour-description {
+    width: 223px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.tour-enter_article {
+    margin-left: 55px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.include-title {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 33px;
+    line-height: 44px;
+}
+
+.include-list {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.include-item {
+    margin-top: 22px;
+}
+
+.tour-title_data {
+    display: flex;
+}
+.include-title_img {
+    margin-right: 40px;
+}
+
+.list-title {
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.sub-container {
+    text-align: center;
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 220px;
+}
+.sub-title {
+    font-family: 'Lora', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.email {
+    width: 850px;
+    height: 100px;
+    border: 3px solid #FFFFFF;
+    background: #000;
+    color: #fff;
+    padding-left: 75px;
+    outline: none;
+    font-size: 30px;
+}
+.subscribe-btn {
+    display: inline;
+    outline: none;
+    margin-left: 0;
+    font-size: 30px;
+    font-weight: 600;
+    width: 430px;
+    height: 100px;
+}
+
+.about {
+    background: url('../images/about.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.about-title {
+    padding-top: 79px;
+    font-size: 96px;
+    font-weight: 400;
+    font-family: 'Lora', sans-serif;
+    margin-bottom: 80px;
+}
+
+.about-subtitle {
+    position: relative;
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.about-subtitle::before {
+    position: absolute;
+    left: -450px;
+    top: 25px;
+    content: '';
+    height: 3px;
+    width: 415px;
+    background: #fff;
+}
+.about-subtitle_second {
+    line-height: 58px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 175px;
+    margin-top: 149px;
+}
+
+.about-elements {
+    max-width: 1490px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element-title {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
